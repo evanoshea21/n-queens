@@ -22,6 +22,8 @@ describe('Board', function() {
     });
 
     it('should not find a majorDiagonal conflict', function() {
+      //debugger;
+      //var x = board.hasAnyMajorDiagonalConflicts();
       expect(board.hasAnyMajorDiagonalConflicts()).to.be.equal(false);
     });
 
